@@ -1,0 +1,14 @@
+C:\Users\Alex Junior Valera\source\repos\marileidyunapec\Asiento-Contable\Get_ActivosFijos\bin\Debug\Get_ActivosFijos.exe.config
+C:\Users\Alex Junior Valera\source\repos\marileidyunapec\Asiento-Contable\Get_ActivosFijos\bin\Debug\Get_ActivosFijos.exe
+C:\Users\Alex Junior Valera\source\repos\marileidyunapec\Asiento-Contable\Get_ActivosFijos\bin\Debug\Get_ActivosFijos.pdb
+C:\Users\Alex Junior Valera\source\repos\marileidyunapec\Asiento-Contable\Get_ActivosFijos\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alex Junior Valera\source\repos\marileidyunapec\Asiento-Contable\Get_ActivosFijos\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Alex Junior Valera\source\repos\marileidyunapec\Asiento-Contable\Get_ActivosFijos\obj\Debug\Get_ActivosFijos.csproj.AssemblyReference.cache
+C:\Users\Alex Junior Valera\source\repos\marileidyunapec\Asiento-Contable\Get_ActivosFijos\obj\Debug\Get_ActivosFijos.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alex Junior Valera\source\repos\marileidyunapec\Asiento-Contable\Get_ActivosFijos\obj\Debug\Get_ActivosFijos.Form1.resources
+C:\Users\Alex Junior Valera\source\repos\marileidyunapec\Asiento-Contable\Get_ActivosFijos\obj\Debug\Get_ActivosFijos.Properties.Resources.resources
+C:\Users\Alex Junior Valera\source\repos\marileidyunapec\Asiento-Contable\Get_ActivosFijos\obj\Debug\Get_ActivosFijos.csproj.GenerateResource.cache
+C:\Users\Alex Junior Valera\source\repos\marileidyunapec\Asiento-Contable\Get_ActivosFijos\obj\Debug\Get_ActivosFijos.csproj.CoreCompileInputs.cache
+C:\Users\Alex Junior Valera\source\repos\marileidyunapec\Asiento-Contable\Get_ActivosFijos\obj\Debug\Get_ActivosFijos.csproj.CopyComplete
+C:\Users\Alex Junior Valera\source\repos\marileidyunapec\Asiento-Contable\Get_ActivosFijos\obj\Debug\Get_ActivosFijos.exe
+C:\Users\Alex Junior Valera\source\repos\marileidyunapec\Asiento-Contable\Get_ActivosFijos\obj\Debug\Get_ActivosFijos.pdb
