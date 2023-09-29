@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UNAPEC\\ASIENTO CONTABLE\\Asiento Contable\\Asiento Contable.csproj": {}
+    "C:\\Users\\Alex Junior Valera\\source\\repos\\marileidyunapec\\Asiento-Contable\\Asiento Contable\\Asiento Contable.csproj": {}
   },
   "projects": {
-    "D:\\UNAPEC\\ASIENTO CONTABLE\\Asiento Contable\\Asiento Contable.csproj": {
+    "C:\\Users\\Alex Junior Valera\\source\\repos\\marileidyunapec\\Asiento-Contable\\Asiento Contable\\Asiento Contable.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UNAPEC\\ASIENTO CONTABLE\\Asiento Contable\\Asiento Contable.csproj",
+        "projectUniqueName": "C:\\Users\\Alex Junior Valera\\source\\repos\\marileidyunapec\\Asiento-Contable\\Asiento Contable\\Asiento Contable.csproj",
         "projectName": "Asiento Contable",
-        "projectPath": "D:\\UNAPEC\\ASIENTO CONTABLE\\Asiento Contable\\Asiento Contable.csproj",
-        "packagesPath": "C:\\Users\\Supervisor\\.nuget\\packages\\",
-        "outputPath": "D:\\UNAPEC\\ASIENTO CONTABLE\\Asiento Contable\\obj\\",
+        "projectPath": "C:\\Users\\Alex Junior Valera\\source\\repos\\marileidyunapec\\Asiento-Contable\\Asiento Contable\\Asiento Contable.csproj",
+        "packagesPath": "C:\\Users\\Alex Junior Valera\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alex Junior Valera\\source\\repos\\marileidyunapec\\Asiento-Contable\\Asiento Contable\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Supervisor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alex Junior Valera\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\PORTAL\\CRM": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,6 +64,14 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -80,10 +87,29 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.16, 6.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -92,7 +118,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }

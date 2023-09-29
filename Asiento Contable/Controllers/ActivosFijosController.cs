@@ -54,6 +54,59 @@ namespace Asiento_Contable.Controllers
                 return StatusCode(500, $"Error interno del servidor: {ex.Message}");
             }
         }
+        [HttpGet("obtenerAsientos")]
+        public IActionResult ObtenerAsientos()
+        {
+            try
+            {
+               
+                var asientos = _context.ActivosFijos.ToList(); 
+
+                if (asientos == null || !asientos.Any())
+                {
+                    return NotFound("No se encontraron asientos contables.");
+                }
+
+                return Ok(asientos); 
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Error interno del servidor: {ex.Message}");
+            }
+        }
+        [HttpPost("nuevoAsiento")]
+        public async Task<IActionResult> NuevoAsiento(ActivosFijos datosEntrada)
+        {
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    var nuevoAsiento = new ActivosFijos
+                    {
+                        Descripcion = datosEntrada.Descripcion,
+                        FechaAsiento = datosEntrada.FechaAsiento,
+                        CuentaContable = datosEntrada.CuentaContable,
+                        TipoMovimiento = datosEntrada.TipoMovimiento,
+                        MontoMovimiento = datosEntrada.MontoMovimiento
+                    };
+
+                    _context.ActivosFijos.Add(nuevoAsiento);
+                    await _context.SaveChangesAsync();
+
+                    // Devuelve una respuesta exitosa
+                    return Ok("Asiento contable creado exitosamente.");
+                }
+                catch (Exception ex)
+                {
+                    return StatusCode(500, $"Error interno del servidor: {ex.Message}");
+                }
+            }
+            else
+            {
+                return BadRequest(ModelState);
+            }
+        }
+
 
     }
 }

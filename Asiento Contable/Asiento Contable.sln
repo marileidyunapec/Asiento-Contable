@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asiento Contable", "Asiento Contable.csproj", "{F9CE41AF-C4D9-4114-8711-7E85865ED5C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asiento Contable", "Asiento Contable.csproj", "{F9CE41AF-C4D9-4114-8711-7E85865ED5C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Get_ActivosFijos", "..\Get_ActivosFijos\Get_ActivosFijos.csproj", "{954A0D4A-50DF-4A3A-BD5D-8103149D9FFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F9CE41AF-C4D9-4114-8711-7E85865ED5C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9CE41AF-C4D9-4114-8711-7E85865ED5C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9CE41AF-C4D9-4114-8711-7E85865ED5C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{954A0D4A-50DF-4A3A-BD5D-8103149D9FFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{954A0D4A-50DF-4A3A-BD5D-8103149D9FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{954A0D4A-50DF-4A3A-BD5D-8103149D9FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{954A0D4A-50DF-4A3A-BD5D-8103149D9FFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
